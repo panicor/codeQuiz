@@ -35,3 +35,36 @@
     text-decoration: none;
     color: black;
 }
+
+.bigboxhs{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.hidden {
+    display: none;
+}
+
+.visible{
+    display: block;
+}
+
+.choices-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.rightWrong {
+    text-align: center;
+}
